@@ -1,0 +1,76 @@
+Beamer Strom eigener Kreis, der später auf den nicht 
+geschaltteten Verteilerkasten geht.
+Auto Power off im Beamer konfiguriert.
+1xHDMI, 1x VGA upstage right
+1x HDMI am FOH
+
+
+
+
+FOH Remote mit 
+8 Buttons:
+	-16:9 d2
+	-4:3 d3
+	-1:1 d4
+	-Letterbox d5
+	-PWR On (3 sek gedrückt halten) counter zählt polling intervalle
+	-PWR Off (3 Sek gedrückt halten) counter zählt polling intervalle
+	-Blank On
+	-Blank Off
+
+Spricht mit Master Unit über software serial
+Remote mit Cat kabel von dem Arduino abgesetzt
+https://www.voelkner.de/products/834785/Cliff-XLR-Adapter-UTP-RJ45-Cat6-auf-RJ45-Cat6-Adapter-Einbau-CP30222-Inhalt-1-St..html
+
+	
+Master Device in Bühnen Remote
+Kasten mit HDMI und VGA Stecker
+Stromversorgung über den 5v USB Power out vom Beamer
+
+Anschluss über RS 232 Cross-Kabel:
+	-Pins 2,3, gedreht, sind RXD, TXD
+	-Pin 5 -> GND
+D-Sub 9 Anschluss am Beamer
+Serieller Port 115200 Baud
+8bit Data 
+1 Stop Bit 
+kein Parity Bit
+
+
+
+
+Material:
+
+VGA Durchgangsverbinder 18,10€
+Neutrik D-SUB Adapter D-SUB-Buchse 15pol. - D-SUB-Buchse 15pol. NADB15FF-B 1 St.
+https://www.voelkner.de/products/882422/Neutrik-D-SUB-Adapter-D-SUB-Buchse-15pol.-D-SUB-Buchse-15pol.-NADB15FF-B-1-St..html?ref=43&products_model=W576851&gclid=EAIaIQobChMI3rOi5svB1wIVhJUbCh1zwA2vEAkYASABEgJXs_D_BwE
+
+2 HDMI Durchgangsverbinder  9,90€
+Hdmi-Durchführung Nahdmi-W
+https://www.voelkner.de/products/173653/Hdmi-Durchfuehrung-Nahdmi-W.html?ref=43&products_model=D22631&gclid=EAIaIQobChMI99Pw2svB1wIV6p3tCh25VwyCEAkYASABEgIn3PD_BwE
+
+
+Beamer Benq TH671ST 759 €
+https://www.notebooksbilliger.de/benq+th671st+kurzdistanzbeamer/eqsqid/031ca82e-7d89-4fe0-8b1f-b7ebfc608e7f
+
+
+Deckenhalterung 39,90
+https://www.notebooksbilliger.de/beamer/zubehoer+beamer/deckenhalterungen/purelink+puremounts+spider+plus+schwarz
+
+HDMI KAbel Beamer <-> FOH 15m 55,85€
+https://www.reichelt.de/A-V-Kabel-HDMI-/GC-M0032/3/index.html?ACTION=3&LA=2&ARTICLE=171802&GROUPID=3615&artnr=GC+M0032&SEARCH=%252A
+
+HDMI Kabel Stagebox <-> Beamer 10m 47,35 €
+https://www.reichelt.de/A-V-Kabel-HDMI-/GC-M0031/3/index.html?ACTION=3&LA=2&ARTICLE=171801&GROUPID=3615&artnr=GC+M0031&SEARCH=%252A
+
+VGA Kabel Beamer <-> Stagebox 10m  29,95
+https://www.reichelt.de/VGA-VGA/SHVP-78050-10/3/index.html?ACTION=3&LA=2&ARTICLE=211290&GROUPID=6091&artnr=SHVP+78050-10&SEARCH=%252A
+
+Serielles Kabel 10m 8€
+https://www.reichelt.de/Sub-D-Kabel/DELOCK-82983/3/index.html?ACTION=3&LA=2&ARTICLE=179870&GROUPID=6082&artnr=DELOCK+82983&SEARCH=%252A
+
+Summe insg.
+977,95 €
+ + Kabelkanal grau
+ + Kabelkanal Schwarz
+
